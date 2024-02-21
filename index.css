@@ -1,5 +1,5 @@
 body {
-    background-color: #669999;
+    background-color: #8533ff;
     color: aliceblue;
 }
 
@@ -38,15 +38,15 @@ li a {
 }
 .flex-container {
   display: flex;
-  flex-wrap: wrap-reverse;
-  background-color: DodgerBlue;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #8533ff;
 }
      
 .flex-container > div {
-  background-color: black;
-  width: 100px;
-  margin: 10px;
+  box-shadow: 5px 5px 5px wheat;
+  width: 20%;
+  margin: 5%;
   text-align: center;
-  line-height: 75px;
-  font-size: 30px;
+  font-size: 20px;
 }
