@@ -8,10 +8,14 @@ window.onload = function() {
       headers: {
         'Content-Type': 'application/json',
       },
-      body: JSON.stringify({email: document.getElementById('email').value})
+      body: JSON.stringify({
+      email: document.getElementById('email').value,
+      password: document.getElementById('psw-repeat').value
+      })
     })
     .then(response => response.json())
     .then(data => console.log('Success:', data))
     .catch((error) => console.error('Error:', error));
   });
 };
+

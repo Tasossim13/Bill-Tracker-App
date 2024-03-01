@@ -12,12 +12,13 @@ app.use(bodyParser.json());
 // Δημιουργία POST endpoint
 app.post('/save-name', (req, res) => {
 
-  const email = req.body.email;
-  console.log('Received name:', email);
+  const { email, password } = req.body; 
+  console.log('Received email: ', email);
+  console.log('Received password: ', password);
 
 
   // Επιστροφή απόκρισης
-  res.status(200).send('Name received');
+  res.status(200).json({message: 'Data received'});
 });
 
 app.listen(port, () => {
