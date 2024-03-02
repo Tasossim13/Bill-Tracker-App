@@ -18,12 +18,15 @@ body {
     width: 33.3%;
     margin-bottom: 16px;
     padding: 0 8px;
+    display: block;
+    margin-left: 33%;
+    margin-right: auto;
   }
   
   .card {
     box-shadow: 0 38px 38px 00 rgba(0, 0, 0, 0.2);
     margin: 8px;
-    border-radius: 10%;
+    border-radius: 8%;
   }
   
   .about-section {
@@ -62,6 +65,7 @@ body {
     text-align: center;
     cursor: pointer;
     width: 100%;
+    border-radius: 50%;
   }
   
   .button:hover {
@@ -72,6 +76,9 @@ body {
     .column {
       width: 100%;
       display: block;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
     }
   }
   ul {
