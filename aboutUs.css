@@ -14,7 +14,7 @@ body {
   }
   
   .column {
-    float: left;
+
     width: 33.3%;
     margin-bottom: 16px;
     padding: 0 8px;
@@ -53,6 +53,7 @@ body {
   
   .title {
     color: white;
+    text-align: center;
   }
   
   .button {
@@ -112,4 +113,12 @@ body {
     li a {
       font-size: small;
     }
+  }
+
+
+  footer {
+    text-align: center;
+    padding: 3px;
+    background-color: black;
+    color: white;
   }
