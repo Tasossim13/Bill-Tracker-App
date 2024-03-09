@@ -6,7 +6,14 @@ body {
     background-repeat: repeat;
     background-attachment: fixed;  
     background-size: cover;
-  }
+}
+  
+h1{
+  color: wheat;
+  text-align: center;
+  font-family: fantasy;
+}
+
 
 form {
     border: 3px solid #f1f1f1;
