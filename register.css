@@ -9,7 +9,7 @@ body {
   .container {
     box-sizing: border-box;
     margin: auto;
-    width: 95%;
+    width: 75%;
     padding: 16px;
     background-color: #333;
   }
@@ -68,7 +68,7 @@ body {
   /* Set a grey background color and center the text of the "sign in" section */
   .signin {
     box-sizing: border-box;
-    width: 95%;
+    width: 75%;
     background-color: #333;
     text-align: center;
   }
@@ -106,3 +106,10 @@ img {
   margin-right: auto;
   width: 20%;
  }  
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: black;
+  color: white;
+}
